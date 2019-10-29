@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.followers {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 300px 300px 300px;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  height: 1000px;
+  margin: 2%;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+.follower {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img:hover{
+  width: 110%;
+}
