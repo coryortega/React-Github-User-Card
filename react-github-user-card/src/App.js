@@ -21,7 +21,8 @@ class App extends React.Component {
 
   componentDidUpdate(prevProps, prevState) {
 
-    if (prevState.followers !== this.state.followers) {
+    if (prevState.followers.length !== this.state.followers.length) {
+      console.log(prevState, this.state)
       axios
       .get('https://api.github.com/users/coryortega/followers')
       .then(res => {
